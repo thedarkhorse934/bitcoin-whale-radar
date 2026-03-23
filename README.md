@@ -16,11 +16,13 @@ The goal of the project is to provide a **simple way to observe large Bitcoin mo
 
 ### Live Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1354" height="528" alt="Screenshot 2026-03-23 at 09 21 26" src="https://github.com/user-attachments/assets/79855d4b-8cbe-4655-b0e5-4549779f9b1a" />
+
 
 ### Terminal Monitor
 
-![Terminal](screenshots/terminal.png)
+<img width="310" height="672" alt="Screenshot 2026-03-23 at 09 25 19" src="https://github.com/user-attachments/assets/f86cb199-d0b7-4985-bfc9-52fc3ba25802" />
+
 
 Example dashboard row:
 

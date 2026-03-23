@@ -1,0 +1,11 @@
+{
+  "apiBaseUrl": "https://mempool.space/api",
+  "whaleThresholdBtc": 10,
+  "megaWhaleBtc": 1000,
+  "extremeWhaleBtc": 5000,
+  "pollIntervalMs": 15000,
+  "mempoolPollIntervalMs": 4000,
+  "mempoolRecentLimit": 10,
+  "suppressSelfTransfersUnderBtc": 1000
+}
+

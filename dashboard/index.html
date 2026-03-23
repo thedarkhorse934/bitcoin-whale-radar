@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitcoin Whale Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar radar-topbar">
+      <div class="radar-sweep"></div>
+
+      <div class="topbar-left">
+        <h1>🐳 BITCOIN WHALE RADAR</h1>
+      </div>
+
+      <div class="topbar-right">
+        <div class="topbar-latest-whale">
+          <span class="topbar-label">Latest Whale</span>
+          <span id="latestWhaleTime">--:--:--</span>
+        </div>
+        <div id="clock">--:--:--</div>
+      </div>
+    </header>
+
+    <section class="stats-grid stats-grid-4 stats-grid-compact">
+      <div class="panel stat stat-compact">
+        <h3>Latest Tip</h3>
+        <p id="latestTip">-</p>
+      </div>
+
+      <div class="panel stat stat-compact">
+        <h3>Latest Whale Block</h3>
+        <p id="latestWhaleBlock">-</p>
+      </div>
+
+      <div class="panel stat stat-compact">
+        <h3>BTC/GBP</h3>
+        <p id="btcGbp">-</p>
+      </div>
+
+      <div class="panel stat stat-compact">
+        <h3>Biggest 24h</h3>
+        <p id="biggest24h">-</p>
+      </div>
+    </section>
+
+    <section class="main-grid">
+      <div class="panel">
+        <div class="panel-heading">
+          <h2>Confirmed Whale Feed</h2>
+          <span class="panel-subtitle">confirmed block whales only</span>
+        </div>
+        <div id="eventsTable"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
